@@ -1,0 +1,412 @@
+﻿item_id,category,question_id,question_idx,method,correct_answer,initial_answer,predicted_answer,is_correct,latency_s,prompt_tokens,completion_tokens,vote_counts,raw_response
+0,computer science,10356,1,consistency_k3_reflection,B,B,B,True,5.893,271,256,,"在需求规格不明确的情况下，软件工程的最佳实践是先澄清需求，而不是在未明确的情况下自行决定实现方式。因此，修改规格说明以明确行为是首选。
+
+FINAL: B"
+1,computer science,10357,2,consistency_k3_reflection,A,A,A,True,4.393,177,244,,"程序的外层循环执行3次，内层循环执行y次，每次内层循环将result增加1。因此，result的最终值是3 * y，即3y。
+
+初始回答选择A，是正确的。
+
+FINAL: A"
+2,computer science,10358,3,consistency_k3_reflection,A,C,C,False,8.247,187,339,,"经过复核，搜索引擎历史记录包含了用户主动查询的各种意图、兴趣、健康状况、政治倾向等敏感信息，能够构建出极其详细的个人画像，相比其他选项如Cookie、IP地址、电话号码或电子邮件地址等，其潜在危害隐私的程度最大。因此初始回答正确。
+
+FINAL: C"
+3,computer science,10359,4,consistency_k3_reflection,F,?,?,False,18.14,149,768,,
+4,computer science,10360,5,consistency_k3_reflection,C,C,C,True,12.029,267,686,,"经过复核，表达式I和II可以合一（代换{w/1, x/1}），I和III可以合一（代换{w/g(z), y/g(z)}），而II和III由于常量1与复合项g(z)无法合一，故不可合一。因此可统一的对是(I, II)和(I, III)，选项C正确。
+
+FINAL: C"
+5,computer science,10361,6,consistency_k3_reflection,G,G,G,True,8.047,179,558,,"该十六进制数 D4FE2003 转换为二进制后，包含 14 个 1，即占用磁道数为 14。总位数为 32，占用百分比为 14/32 = 43.75%，四舍五入后为 44%。因此答案为 G。
+
+FINAL: G"
+6,computer science,10362,7,consistency_k3_reflection,A,?,?,False,14.338,269,768,,
+7,computer science,10363,8,consistency_k3_reflection,D,D,D,True,3.186,150,140,,"矩阵所有元素均为1，显然各行（或各列）线性相关，且非零矩阵，因此秩为1。
+
+FINAL: D"
+8,computer science,10364,9,consistency_k3_reflection,D,D,D,True,10.64,158,478,,"k-最近邻（k-NN）分类算法在测试阶段，对单个测试样本进行分类时，需要计算该样本与训练集中所有 N 个实例的距离，然后选取最近的邻居。该过程的运行时间复杂度为 O(N)。题目中所指的“classification run time”通常即为此种情况。
+
+FINAL: D"
+9,computer science,10365,10,consistency_k3_reflection,J,F,F,False,7.286,201,346,,"经过复核，ReLU 函数实际上是单调的（非递减），因此陈述1错误；神经网络使用梯度下降训练通常不能保证以高概率收敛到全局最优，这是一个非凸优化问题，因此陈述2也错误。两个陈述均为假，对应选项F。
+
+FINAL: F"
+10,computer science,10366,11,consistency_k3_reflection,A,A,A,True,5.971,155,281,,"根据对两个陈述的核实：
+
+- 斯坦福情感树库（Stanford Sentiment Treebank）基于烂番茄的电影评论构建，确实包含电影评论而非书评，陈述1正确。
+- 宾州树库（Penn Treebank）长期被用于语言建模任务，是语言模型领域的经典基准数据集，陈述2正确。
+
+因此两个陈述均为真，对应选项A。
+
+FINAL: A"
+11,computer science,10367,12,consistency_k3_reflection,F,F,F,True,9.824,197,489,,"F 是正确的选项。批量归一化（Batch Normalization）会对前一层的输出进行减均值、除标准差的归一化操作，这会抵消掉该层偏置项的作用，因此紧接在 BN 之前的仿射层（如全连接层或卷积层）中的偏置参数是冗余的。
+
+FINAL: F"
+12,computer science,10368,13,consistency_k3_reflection,H,H,H,True,6.589,134,321,,"经过独立复核，题目询问哪个选项具有最强的无线安全性。根据当前无线安全标准，WPA3（选项H）是最新、最安全的协议，提供了比WPA2、WPA及WEP等更强的加密和保护机制。WPA4尚未标准化。因此初始回答正确。
+
+FINAL: H"
+13,computer science,10369,14,consistency_k3_reflection,B,?,?,False,17.011,115,768,,
+14,computer science,10370,15,consistency_k3_reflection,B,B,B,True,5.124,150,268,,FINAL: B
+15,computer science,10371,16,consistency_k3_reflection,E,E,E,True,5.421,156,285,,"根据奈奎斯特采样定理，要消除混叠问题，采样频率必须至少为信号最高频率的两倍。题目明确给出模拟信号的带宽（bandwidth）为 4 kHz，对于基带信号，带宽即为其最高频率，因此最小采样率为 2 × 4 kHz = 8 kHz。选项 E 为 8，正确。
+
+FINAL: E"
+16,computer science,10372,17,consistency_k3_reflection,A,A,A,True,4.674,125,245,,"有5个无标号顶点的树（即互不同构的树）共有3种。这可以通过枚举或已知序列（n=1:1, n=2:1, n=3:1, n=4:2, n=5:3, n=6:6...）确认。因此正确答案是A。
+
+FINAL: A"
+17,computer science,10373,18,consistency_k3_reflection,D,D,D,True,11.673,235,714,,"根据题目给出的无向图 G，边集为 {<0,2>, <2,4>, <3,4>, <1,4>}，节点包括 0, 1, 2, 3, 4。已知顶点覆盖中必须包含节点 0，则边 <0,2> 已被覆盖。剩余的边 <2,4>, <3,4>, <1,4> 都需要被覆盖。选择节点 4 可一次性覆盖这三条边，因此最小顶点覆盖为 {0, 4}，按升序排列为 [0, 4]。选项中 D 与之相符，故初始回答正确。
+
+FINAL: D"
+18,computer science,10374,19,consistency_k3_reflection,I,?,?,False,17.6,166,768,,
+19,computer science,10375,20,consistency_k3_reflection,B,B,B,True,10.5,182,611,,"经过独立复核，对于非负整数随机变量，在期望值为1的约束下，最大熵分布是参数为p=1/2的几何分布（从0开始）。该分布的熵计算值为2 bits，因此选项B正确。
+
+FINAL: B"
+20,biology,2804,1,consistency_k3_reflection,B,B,B,True,7.941,152,370,,"经过复核，题目要求选出最可能观察到有丝分裂细胞分裂的选项，这需要寻找存在活跃分裂能力的组织。
+
+- **B. 茎尖纵切面**：茎尖含有顶端分生组织，是植物进行有丝分裂最旺盛的部位，用于初生生长，因此非常符合条件。
+- **H. 花药横切面（花粉产生部位）**：虽然标注为花粉产生处，但花粉母细胞主要进行的是减数分裂，不符合有丝分裂的要求。
+- 其他选项如肌肉组织、叶脉、果实、普通叶片、花瓣、种子等，大多由成熟或已分化的细胞组成，细胞分裂活动极少或不存在。
+
+因此，初始回答“B”是正确的。
+
+FINAL: B"
+21,biology,2805,2,consistency_k3_reflection,D,D,D,True,11.971,237,628,,"光反应通过光解水产生氧气，同时生成ATP和NADPH。ATP为卡尔文循环提供能量，NADPH提供还原所需的氢和电子，因此光反应主要是为卡尔文循环供应ATP和NADPH。选项D准确描述了这一过程。
+
+FINAL: D"
+22,biology,2806,3,consistency_k3_reflection,C,C,C,True,9.792,162,483,,"题目要求从给定的基因型组合中选择一组父母双方均为棕色皮毛且能产生银色皮毛后代的杂交组合。棕色皮毛基因（B）对银色皮毛基因（b）为显性，因此银色皮毛的基因型只能是 bb。要产生 bb 后代，父母双方都必须携带至少一个隐性基因 b，同时父母表现型均为棕色，故父母基因型中必须至少有一个显性基因 B，即双方基因型均不能是 bb。满足条件的只有 Bb × Bb（均为棕色，且各自携带 b，可产生 bb 后代）。选项 C 符合要求。
+
+FINAL: C"
+23,biology,2807,4,consistency_k3_reflection,I,?,?,False,16.049,225,768,,
+24,biology,2808,5,consistency_k3_reflection,C,C,C,True,13.964,198,646,,"该题要求选出完全由认为物种是固定不变（即物种不变论者）的个体组成的选项。回顾生物学史：亚里士多德（Aristotle）持物种固定观点；林奈（Linnaeus）作为分类学之父，早期坚信物种是神创且不变的；居维叶（Cuvier）虽提出灾变论，但反对进化，认为物种本身不变。拉马克（Lamarck）和达尔文（Darwin）都是进化论的支持者，主张物种可变；莱尔（Lyell）早期可能倾向物种固定，但后来接受了进化，一般不被视为纯粹的物种固定论者。因此，完全由物种固定论者组成的组合是亚里士多德、林奈和居维叶，即选项C。
+
+FINAL: C"
+25,biology,2809,6,consistency_k3_reflection,A,A,A,True,5.076,144,246,,"A陈述错误，因为细胞凋亡是程序性细胞死亡，而非细胞分裂类型。B、C、D均为正确描述。
+
+FINAL: A"
+26,biology,2810,7,consistency_k3_reflection,F,F,F,True,6.257,213,248,,"根据题意，进化论是现代生物学的基石，拥有大量化石、遗传学和观察证据支持，用来解释种群如何随时间演变。它不是普遍接受的绝对事实（A过度绝对），不是待验证的假设（B），不是被推翻的理论（C），不是纯粹的推测（D），不是个人意见（E），不是多个同等科学解释之一（G），不是猜测（H），不是基于少数物种的假设（I），更不是宗教信仰（J）。选项F准确描述了科学理论的性质：有大量证据支持的总体解释。
+
+FINAL: F"
+27,biology,2811,8,consistency_k3_reflection,F,F,F,True,4.687,113,242,,"题目考查生物体中的主要无机化合物。水（H₂O）是生物体内含量最丰富的无机化合物，而其他选项多为元素（如氧、钙、碳等）或有机化合物（如葡萄糖）。因此，正确选项是 F。
+
+FINAL: F"
+28,biology,2812,9,consistency_k3_reflection,H,H,H,True,7.293,191,373,,"如果两个现代生物在进化意义上亲缘关系较远，意味着它们拥有更久远的共同祖先，因此与亲缘关系更近的生物相比，它们共享的同源结构会更少。其他选项要么与亲缘关系无关，要么与事实相反。
+
+FINAL: H"
+29,biology,2813,10,consistency_k3_reflection,D,D,?,False,14.994,128,768,,
+30,biology,2814,11,consistency_k3_reflection,A,A,A,True,9.216,127,484,,"A选项错误地将先天免疫（innate immunity）等同于适应性免疫（adaptive immune response），这是概念混淆，因此是不正确的陈述。B、D均为正确陈述，C虽有讨论空间，但根据标准免疫学知识，先天免疫可通过补体系统等参与体液反应，或间接激活适应性体液免疫，并非明显错误。因此不正确的选项为A。
+
+FINAL: A"
+31,biology,2815,12,consistency_k3_reflection,A,A,A,True,9.728,137,473,,"题目问的是“将能量作为其反应物之一的反应”，在化学和生物化学中，这对应于需要从周围环境吸收能量的反应。吸能反应（endergonic reaction）的定义就是反应过程中自由能增加，能量被吸收，因此可以将能量视为“反应物”。相反，放能反应（exergonic reaction）释放能量，能量是产物。其他选项如分解代谢（catabolic）通常是放能的，合成代谢（anabolic）本身是吸能的但并非标准术语直接定义“能量为反应物”，而放热（exothermic）侧重热焓变化，光解（photolytic）特指光能驱动，均不贴合“能量作为反应物”的通用定义。初始回答选择 A 是正确的。
+
+FINAL: A"
+32,biology,2816,13,consistency_k3_reflection,G,?,?,False,16.158,260,768,,
+33,biology,2817,14,consistency_k3_reflection,E,E,E,True,5.253,165,232,,"题目描述的血型为AB型，孩子同时表达A和B两种糖蛋白，这是等位基因IA和IB共同表达的结果，两者没有显隐性关系，属于典型的共显性（codominance）现象。初始回答E正确。
+
+FINAL: E"
+34,biology,2818,15,consistency_k3_reflection,D,D,D,True,7.318,238,346,,"Frameshift mutations are caused by insertions or deletions of nucleotides that shift the reading frame, precisely as described in option D. The other options describe different types of mutations (e.g., point mutations, nonsense, missense, silent, translocations, large deletions, or duplications), none of which guarantee a frameshift.
+
+FINAL: D"
+35,biology,2819,16,consistency_k3_reflection,C,C,C,True,4.573,99,233,,"经过复核，题目要求选出与培养成纤维细胞中观察到的细胞运动无关的选项。细胞运动过程涉及黏着斑（adhesion plaques）、纽蛋白（vinculin）以及片状伪足（lamellipodia）等结构和分子。网格蛋白（clathrin）主要参与受体介导的内吞作用，与细胞运动无直接关联。因此，正确选项为C，初始回答无误。
+
+FINAL: C"
+36,biology,2820,17,consistency_k3_reflection,A,A,?,False,16.627,201,768,,
+37,biology,2821,18,consistency_k3_reflection,I,A,A,False,12.505,174,564,,"在培养环境中，癌细胞与正常细胞的一个共同点是均不具备转移能力，因为转移是一个涉及体内侵袭和扩散的复杂过程，无法在体外培养条件下发生。其他选项均不恰当：癌细胞可以无限分裂而正常细胞不能，癌细胞常抵抗程序性死亡，两者均需营养和氧气，癌细胞可达到更高密度且无接触抑制，癌细胞DNA修复效率低且易突变，癌细胞常可不依赖表面附着生长。
+
+FINAL: A"
+38,biology,2823,19,consistency_k3_reflection,J,J,J,True,6.368,208,328,,"遗传漂变（genetic drift）在小规模、孤立的人群中影响显著，而目前人类种群规模巨大且交流频繁，基因流动增强，大大削弱了随机漂变的作用。因此，选项J准确解释了这一现象。
+
+FINAL: J"
+39,biology,2824,20,consistency_k3_reflection,F,F,F,True,10.943,292,560,,FINAL: F
+0,computer science,10356,1,direct_current,B,,B,True,4.686,244,222,,FINAL: B
+1,computer science,10357,2,direct_current,A,,A,True,3.609,149,136,,FINAL: A
+2,computer science,10358,3,direct_current,A,,C,False,15.481,159,620,,FINAL: C
+3,computer science,10359,4,direct_current,F,,F,True,15.724,122,705,,FINAL: F
+4,computer science,10360,5,direct_current,C,,C,True,9.52,239,470,,FINAL: C
+5,computer science,10361,6,direct_current,G,,G,True,6.397,152,374,,FINAL: G
+6,computer science,10362,7,direct_current,A,,A,True,12.796,241,738,,FINAL: A
+7,computer science,10363,8,direct_current,D,,D,True,2.178,122,48,,FINAL: D
+8,computer science,10364,9,direct_current,D,,D,True,5.295,131,229,,FINAL: D
+9,computer science,10365,10,direct_current,J,,F,False,7.852,173,495,,FINAL: F
+10,computer science,10366,11,direct_current,A,,A,True,3.488,127,156,,FINAL: A
+11,computer science,10367,12,direct_current,F,,F,True,6.787,170,366,,FINAL: F
+12,computer science,10368,13,direct_current,H,,H,True,1.45,106,35,,FINAL: H
+13,computer science,10369,14,direct_current,B,,B,True,14.001,87,683,,FINAL: B
+14,computer science,10370,15,direct_current,B,,B,True,1.914,122,65,,FINAL: B
+15,computer science,10371,16,direct_current,E,,E,True,3.742,128,171,,FINAL: E
+16,computer science,10372,17,direct_current,A,,A,True,7.149,97,321,,FINAL: A
+17,computer science,10373,18,direct_current,D,,D,True,8.594,208,521,,FINAL: D
+18,computer science,10374,19,direct_current,I,,?,False,16.584,138,768,,
+19,computer science,10375,20,direct_current,B,,B,True,6.732,154,421,,FINAL: B
+20,biology,2804,1,direct_current,B,,B,True,5.381,125,223,,FINAL: B
+21,biology,2805,2,direct_current,D,,D,True,1.989,210,64,,FINAL: D
+22,biology,2806,3,direct_current,C,,C,True,6.537,134,337,,FINAL: C
+23,biology,2807,4,direct_current,I,,?,False,16.061,197,768,,
+24,biology,2808,5,direct_current,C,,C,True,8.574,170,431,,FINAL: C
+25,biology,2809,6,direct_current,A,,A,True,3.208,117,136,,FINAL: A
+26,biology,2810,7,direct_current,F,,F,True,1.871,186,57,,FINAL: F
+27,biology,2811,8,direct_current,F,,F,True,3.313,85,156,,FINAL: F
+28,biology,2812,9,direct_current,H,,H,True,3.88,164,193,,FINAL: H
+29,biology,2813,10,direct_current,D,,D,True,6.953,101,348,,FINAL: D
+30,biology,2814,11,direct_current,A,,A,True,6.3,100,343,,FINAL: A
+31,biology,2815,12,direct_current,A,,A,True,2.68,110,92,,FINAL: A
+32,biology,2816,13,direct_current,G,,?,False,15.475,233,768,,
+33,biology,2817,14,direct_current,E,,E,True,2.588,137,146,,FINAL: E
+34,biology,2818,15,direct_current,D,,D,True,2.218,210,85,,FINAL: D
+35,biology,2819,16,direct_current,C,,C,True,2.316,71,118,,FINAL: C
+36,biology,2820,17,direct_current,A,,?,False,15.928,174,768,,
+37,biology,2821,18,direct_current,I,,A,False,16.877,146,739,,FINAL: A
+38,biology,2823,19,direct_current,J,,J,True,4.791,180,274,,FINAL: J
+39,biology,2824,20,direct_current,F,,F,True,5.274,265,281,,FINAL: F
+0,computer science,10356,1,direct_saved_historical,B,B,B,True,,,,,B
+1,computer science,10357,2,direct_saved_historical,A,A,A,True,,,,,A
+2,computer science,10358,3,direct_saved_historical,A,C,C,False,,,,,C
+3,computer science,10359,4,direct_saved_historical,F,F,F,True,,,,,F
+4,computer science,10360,5,direct_saved_historical,C,C,C,True,,,,,C
+5,computer science,10361,6,direct_saved_historical,G,G,G,True,,,,,G
+6,computer science,10362,7,direct_saved_historical,A,A,A,True,,,,,A
+7,computer science,10363,8,direct_saved_historical,D,D,D,True,,,,,D
+8,computer science,10364,9,direct_saved_historical,D,D,D,True,,,,,D
+9,computer science,10365,10,direct_saved_historical,J,F,F,False,,,,,F
+10,computer science,10366,11,direct_saved_historical,A,A,A,True,,,,,A
+11,computer science,10367,12,direct_saved_historical,F,F,F,True,,,,,F
+12,computer science,10368,13,direct_saved_historical,H,H,H,True,,,,,H
+13,computer science,10369,14,direct_saved_historical,B,B,B,True,,,,,B
+14,computer science,10370,15,direct_saved_historical,B,B,B,True,,,,,B
+15,computer science,10371,16,direct_saved_historical,E,E,E,True,,,,,E
+16,computer science,10372,17,direct_saved_historical,A,A,A,True,,,,,A
+17,computer science,10373,18,direct_saved_historical,D,D,D,True,,,,,D
+18,computer science,10374,19,direct_saved_historical,I,I,I,True,,,,,I
+19,computer science,10375,20,direct_saved_historical,B,B,B,True,,,,,B
+20,biology,2804,1,direct_saved_historical,B,B,B,True,,,,,B
+21,biology,2805,2,direct_saved_historical,D,D,D,True,,,,,D
+22,biology,2806,3,direct_saved_historical,C,C,C,True,,,,,C
+23,biology,2807,4,direct_saved_historical,I,A,A,False,,,,,A
+24,biology,2808,5,direct_saved_historical,C,C,C,True,,,,,C
+25,biology,2809,6,direct_saved_historical,A,A,A,True,,,,,A
+26,biology,2810,7,direct_saved_historical,F,F,F,True,,,,,F
+27,biology,2811,8,direct_saved_historical,F,F,F,True,,,,,F
+28,biology,2812,9,direct_saved_historical,H,H,H,True,,,,,H
+29,biology,2813,10,direct_saved_historical,D,D,D,True,,,,,D
+30,biology,2814,11,direct_saved_historical,A,A,A,True,,,,,A
+31,biology,2815,12,direct_saved_historical,A,A,A,True,,,,,A
+32,biology,2816,13,direct_saved_historical,G,H,H,False,,,,,H
+33,biology,2817,14,direct_saved_historical,E,E,E,True,,,,,E
+34,biology,2818,15,direct_saved_historical,D,D,D,True,,,,,D
+35,biology,2819,16,direct_saved_historical,C,C,C,True,,,,,C
+36,biology,2820,17,direct_saved_historical,A,A,A,True,,,,,A
+37,biology,2821,18,direct_saved_historical,I,A,A,False,,,,,A
+38,biology,2823,19,direct_saved_historical,J,J,J,True,,,,,J
+39,biology,2824,20,direct_saved_historical,F,F,F,True,,,,,F
+0,computer science,10356,1,self_consistency_k3,B,,B,True,19.546,768,930,"{""B"": 3}","[""在软件开发中，当需求规范不明确时，最佳做法是澄清需求，而不是自行假设或随意实现。题目中指出规范未说明当存在多个大于给定项的值时应如何处理，因此最合理的行动是修改规范以明确此情况下的行为，从而避免后续的歧义和潜在错误。\n\nFINAL: B"", ""在软件开发中，当方法的需求规范不明确时，最佳做法是先澄清需求，而不是自行猜测或随意实现某种行为。题目指出规范没有说明存在多个符合条件的值时应该返回什么，因此应该首先修改规范，明确这种情况的处理方式。\n\nFINAL: B"", ""在软件开发中，当问题规范不明确时，最佳做法是首先澄清需求，而不是做出可能不符合用户期望的任意假设或实现。因此，应修改规范以明确在存在多个更大值时应该返回什么，然后再进行实现。\n\nFINAL: B""]"
+1,computer science,10357,2,self_consistency_k3,A,,A,True,13.972,483,722,"{""A"": 3}","[""该程序将变量 result 初始化为 0，然后执行外层循环 3 次，每次外层循环中包含一个执行 y 次的内层循环，每次内层循环将 result 加 1。因此，总增加次数为 3 × y = 3y。由于初始值为 0，最终的 result 值为 3y。\n\nFINAL: A"", ""该程序将 result 初始化为 0，然后外层循环执行 3 次，内层循环执行 y 次，每次内层循环让 result 加 1。因此内层循环总共执行 3 × y 次，result 最终变为 3y。\n\nFINAL: A"", ""该程序将 `result` 初始化为 0，然后执行 3 次外层循环，每次外层循环内包含一个执行 `y` 次的内层循环，每次内层循环将 `result` 增加 1。因此，`result` 的总增加次数为 \\(3 \\times y\\)，最终值为 \\(3y\\)。\n\nFINAL: A""]"
+2,computer science,10358,3,self_consistency_k3,A,,C,False,55.2,513,2252,"{""C"": 1}","[""用户的搜索引擎历史记录了其查询的所有内容，可以直接反映个人的健康状况、财务问题、兴趣爱好、政治倾向等极为私密的信息，一旦泄露，可能造成严重的隐私损害。相比之下，电话号码和电子邮件地址等虽然也是个人标识符，但搜索引擎历史提供的“意图数据”往往更具侵入性和深度。\n\nFINAL: C"", """", """"]"
+3,computer science,10359,4,self_consistency_k3,F,,?,False,52.296,402,2304,{},"["""", """", """"]"
+4,computer science,10360,5,self_consistency_k3,C,,C,True,31.417,753,1980,"{""C"": 2}","[""I 和 II：替换 {w → 1, x → 1}，两者都变为 f(1,1)，可合一。  \nI 和 III：替换 {w → g(z), y → g(z)}，两者都变为 f(g(z), g(z))，可合一。  \nII 和 III：需将常量 1 与复合项 g(z) 合一，无法实现，不可合一。  \n因此可合一的对是 (I, II) 和 (I, III)。\n\nFINAL: C"", """", ""在逻辑合一中，我们寻找替换使得两个表达式完全相同。检查三对表达式：\n- (I, II): f(w,w) 和 f(x,1) 可合一，替换为 {w/1, x/1}。\n- (I, III): f(w,w) 和 f(y,g(z)) 可合一，替换为 {w/g(z), y/g(z)}。\n- (II, III): f(x,1) 和 f(y,g(z)) 不可合一，因为常量 1 与复合项 g(z) 无法合一。\n\n因此，可合一的对为 (I, II) 和 (I, III)。\n\nFINAL: C""]"
+5,computer science,10361,6,self_consistency_k3,G,,G,True,25.943,492,1924,"{""G"": 3}","[""要计算32位十六进制值 D4FE2003 中表示“占用”的位（即1）的百分比，首先将每位十六进制数转为4位二进制：\n\n- D (13) = 1101 → 3个1\n- 4 = 0100 → 1个1\n- F (15) = 1111 → 4个1\n- E (14) = 1110 → 3个1\n- 2 = 0010 → 1个1\n- 0 = 0000 → 0个1\n- 0 = 0000 → 0个1\n- 3 = 0011 → 2个1\n\n1的总数 = 3 + 1 + 4 + 3 + 1 + 0 + 0 + 2 = 14个  \n总位数 = 32  \n百分比 = (14 / 32) × 100% = 43.75% ≈ 44%（取最接近的百分比）\n\nFINAL: G"", ""为了计算十六进制值 D4FE2003 中 1 的个数，先将其转换为二进制，并统计每个十六进制位中 1 的数量：\n\n- D (1101) → 3 个 1\n- 4 (0100) → 1 个 1\n- F (1111) → 4 个 1\n- E (1110) → 3 个 1\n- 2 (0010) → 1 个 1\n- 0 (0000) → 0 个 1\n- 0 (0000) → 0 个 1\n- 3 (0011) → 2 个 1\n\n1 的总数 = 3 + 1 + 4 + 3 + 1 + 0 + 0 + 2 = 14。  \n总位数为 32，占用百分比 = 14 / 32 = 43.75%，四舍五入到最近百分比为 44%。\n\nFINAL: G"", ""首先将十六进制数 D4FE2003 转换为二进制：\n\n- D = 1101 (3个1)\n- 4 = 0100 (1个1)\n- F = 1111 (4个1)\n- E = 1110 (3个1)\n- 2 = 0010 (1个1)\n- 0 = 0000 (0个1)\n- 0 = 0000 (0个1)\n- 3 = 0011 (2个1)\n\n总的1的个数为 3+1+4+3+1+0+0+2 = 14。  \n总位数为32，所以占用百分比 = 14 / 32 = 0.4375 = 43.75%，四舍五入到最近的百分比为44%。\n\nFINAL: G""]"
+6,computer science,10362,7,self_consistency_k3,A,,?,False,42.069,759,2304,{},"["""", """", """"]"
+7,computer science,10363,8,self_consistency_k3,D,,D,True,11.231,402,528,"{""D"": 3}","[""矩阵 A 的所有元素均为 1，因此三行完全相同，且不是零向量。矩阵的秩定义为线性无关的行（或列）的最大数目。由于所有行成比例，因此秩为 1。\n\nFINAL: D"", ""矩阵 A 是一个 3×3 矩阵，其所有元素均为 1。观察可知，矩阵的每一行都相同，因此行向量之间线性相关，最大线性无关行向量的个数为 1。同时，该矩阵不是零矩阵，因此秩大于 0。所以矩阵的秩为 1。\n\nFINAL: D"", ""矩阵A的所有行都相同，因此行向量线性相关，只有1个线性无关的行向量。或者通过行阶梯形化简，后两行减去第一行后全为零，非零行只有一行，所以秩为1。\n\nFINAL: D""]"
+8,computer science,10364,9,self_consistency_k3,D,,D,True,25.7,429,1086,"{""D"": 3}","[""最近邻（Nearest Neighbors）算法在训练阶段通常仅存储数据，而在分类（预测）阶段需要计算待分类样本与训练集中每一个样本的距离，并找出最近邻。因此，对于单个样本的分类运行时间与训练集大小 N 成正比，即 O(N)。\n\nFINAL: D"", ""最近邻（Nearest Neighbors）算法是一种惰性学习算法，在训练阶段通常只存储数据，不进行复杂计算。但在分类（预测）阶段，对于每一个查询样本，最基本的实现需要遍历训练集中所有的 N 个实例，计算距离并进行比较，才能找到最近的一个或 k 个邻居。因此，对单个样本进行分类的运行时间复杂度为 O(N)。如果考虑使用高级索引结构（如 KD 树），平均情况可能达到 O(log N)，但题目通常考察的是最朴素的暴力搜索情况，且选项 D 直接给出了 O(N)。\n\nFINAL: D"", ""最近邻分类（k-Nearest Neighbors）是一种懒惰学习算法，训练阶段不进行实质计算，但在分类（预测）阶段，对于每一个待分类的查询点，都需要计算它与训练集中所有 N 个实例的距离，然后找出最近的邻居。因此，单次分类的运行时间与训练集大小 N 成正比，复杂度为 O(N)。\n\nFINAL: D""]"
+9,computer science,10365,10,self_consistency_k3,J,,F,False,33.912,555,1846,"{""F"": 2}","[""Statement 1: ReLU (Rectified Linear Unit) 函数定义为 max(0, x)，是一个单调递增函数；而 sigmoid 函数也是单调递增的。因此，说“ReLU 不是单调的”是错误的，整个陈述1为假。\nStatement 2: 神经网络的损失函数通常是非凸的，使用梯度下降训练并不能以高概率收敛到全局最优，通常只能找到局部最优或鞍点。因此，陈述2也为假。\n\nFINAL: F"", ""陈述1：ReLU函数的定义为 f(x)=max(0,x)，它在整个定义域上是单调递增的；sigmoid函数也是单调递增的。因此，声称“ReLU不是单调的”是错误的。  \n陈述2：在一般情况下，神经网络的损失函数是非凸的，梯度下降法无法保证以高概率收敛到全局最优，因此该陈述也为假。  \n\nFINAL: F"", ""陈述1：ReLU函数定义为 f(x) = max(0, x)，它是单调递增的，因此“RELUs are not monotonic”""]"
+10,computer science,10366,11,self_consistency_k3,A,,A,True,17.662,417,919,"{""A"": 3}","[""斯坦福情感树库（Stanford Sentiment Treebank）是基于烂番茄电影评论构建的情感分析数据集，因此陈述1“包含电影评论而非书评”为真。宾州树库（Penn Treebank）是自然语言处理领域经典语料库，常被用于词性标注、句法分析以及语言建模等任务，因此陈述2“已被用于语言建模”也为真。\n\nFINAL: A"", ""根据已知常识，Stanford Sentiment Treebank（SST）数据集由斯坦福大学创建，其内容来源于烂番茄网站上的电影评论，因此Statement 1为真。Penn Treebank（PTB）是自然语言处理领域经典的基准语料库，长期被广泛用于语言建模任务的训练与评估，因此Statement 2为真。\n\nFINAL: A"", ""### 分析\n1. **斯坦福情感树库 (Stanford Sentiment Treebank)**：该数据集源自 Rotten Tomatoes 的电影评论，专门用于情感分析，其内容确实是电影评论，而非书评。因此，陈述 1 为 **True**。\n2. **宾夕法尼亚树库 (Penn Treebank)**：这是一个经典的语料库，广泛用于自然语言处理任务，尤其是长期以来作为语言建模（例如神经语言模型）的标准基准数据集之一。因此，陈述 2 为 **True**。\n\n两个陈述均为真。\n\nFINAL: A""]"
+11,computer science,10367,12,self_consistency_k3,F,,F,True,34.427,546,1908,"{""F"": 3}","[""Batch Normalization（批归一化）通过对每一层的输入进行归一化来加速训练并提高稳定性。它通常与ReLU配合使用效果良好（A错），可用于全连接层和卷积层（B错），虽有一定正则化效果但不能完全替代Dropout（C错），其优点之一就是降低对权重初始化的敏感性，因此无需强制改变初始化方法（D错），它与Layer Normalization在归一化维度上不同，在CNN中并不等价（E错），它调整的是激活值而非权重（H错），学习率仍然是必要的超参数（G错）。如果在全连接层或卷积层后紧跟批归一化层，前一层输出的偏置项会在归一化减去均值时被抵消，因此偏置参数变得冗余。\n\nFINAL: F"", ""批归一化（Batch Normalization）在神经网络中作用于激活值，通过减去批次均值并除以标准差来进行标准化，然后再进行缩放和平移。如果批归一化层紧跟在仿射层（如全连接层或卷积层）之后，由于批归一化会先减去均值，使得仿射层中的偏置参数在数学上被抵消，因此该偏置参数变为冗余。在实践中，通常会将前一层偏置设为 False 或禁用，因此选项 F 正确。\n\n其他选项错误原因简述：\n- A：BN 与 ReLU 搭配仍有益处（加速训练、允许更大学习率）。\n- B：BN 也广泛用于卷积层。\n- C：BN 有一定正则化效果，但不能完全消除 Dropout 的需求。\n- D：BN 降低了对权重初始化的敏感性，无需特别改变标准初始化。\n- E：BN 按批次维度归一化，LN 按特征维度归一化，在 CNN 中不直接等价。\n- G：BN 并不使学习率冗余，仍需选择学习率。\n- H：BN 调整激活值，而非权重。\n\nFINAL: F"", ""批归一化（Batch Normalization）的作用是对每一层的激活值进行归一化，然后进行缩放和平移。如果前面的全连接层或卷积层带有偏置参数，这个偏置会在批归一化减去均值的步骤中被抵消掉，而真正的平移由BN层中的可学习参数β实现，因此前面的偏置变得冗余。\n\nFINAL: F""]"
+12,computer science,10368,13,self_consistency_k3,H,,H,True,22.739,354,1102,"{""H"": 3}","[""WPA3是最新的Wi-Fi安全标准，相较于WPA2，它引入了SAE（Simultaneous Authentication of Equals）握手、更强的加密算法以及更完善的保护机制，能有效抵御离线字典攻击和KRACK等已知漏洞。WPA4目前并不存在。因此，WPA3在所列选项中安全性最强。\n\nFINAL: H"", ""根据当前Wi-Fi安全协议标准，WEP系列（C、D、F）早已被破解，安全性最弱；WPA及WPA2（包括PSK和Enterprise变体）相比WEP有显著提升，但仍存在已知漏洞；WPA3是目前最新的Wi-Fi安全协议，提供了更强的加密和防护，WPA4尚未正式推出。因此，WPA3具有最强的无线安全性。\n\nFINAL: H"", ""在无线安全协议中，WEP及其衍生版本（WEP+、WEP2）早已被破解，安全性极弱；WPA是过渡性的改进版本；WPA2（包括个人版PSK和企业版Enterprise）目前仍是广泛使用的标准，但存在一定漏洞；WPA3是最新标准，引入了更安全的加密与认证机制（如SAE、前向保密），而WPA4尚未正式发布。因此，在这些选项中，WPA3具有最强的无线安全性。\n\nFINAL: H""]"
+13,computer science,10369,14,self_consistency_k3,B,,?,False,49.793,297,2304,{},"["""", """", """"]"
+14,computer science,10370,15,self_consistency_k3,B,,B,True,18.692,402,978,"{""B"": 3}","[""ESP（Encapsulating Security Payload，封装安全载荷）是 IPsec（Internet Protocol Security）协议簇中的核心协议之一，用于提供数据机密性、数据完整性以及可选的数据源认证和抗重放保护。IPsec 工作在网络层，因此 ESP 属于 IP 安全协议。\n\nFINAL: B"", ""Encapsulating Security Payload (ESP) 是 IPsec（Internet Protocol Security）协议族中的核心协议之一，主要用于提供数据加密、数据完整性验证和可选的身份认证。IPsec 工作在网络层，通常被称为安全 IP 协议。\n\n**简要分析：**\n- A：安全文件传输协议（如 SFTP 基于 SSH）\n- B：安全 IP 协议（即 IPsec）\n- C：安全套接层协议（SSL，旧版 TLS）\n- D：互联网密钥交换协议（IKE，常与 IPsec 配合使用，但不是 ESP 所属的直接分类）\n- E：传输层安全协议（TLS）\n- F：安全外壳协议（SSH）\n- G：安全 HTTP 协议（S-HTTP，较少使用）\n- H：点对点隧道协议（PPTP）\n- I：HTTPS（基于 TLS/SSL）\n- J：网络安全协议（泛指）\n\n综上，ESP 直接属于 IPsec，即 Secure IP Protocol。\n\nFINAL: B"", ""Encapsulating Security Payload (ESP) 是 IPsec（Internet Protocol Security）协议族的一部分，主要用于提供数据机密性、完整性、认证和反重放保护。IPsec 作用于网络层，常被称为“安全 IP 协议”，因此 ESP 归属于安全 IP 协议。\n\nFINAL: B""]"
+15,computer science,10371,16,self_consistency_k3,E,,E,True,20.764,420,1116,"{""E"": 3}","[""根据奈奎斯特采样定理，为了避免混叠现象，采样频率必须至少为信号最高频率的两倍。对于带宽为4 kHz的基带模拟信号，其最高频率通常即为4 kHz，因此最小采样频率应为 2 × 4 kHz = 8 kHz。\n\nFINAL: E"", ""根据奈奎斯特采样定理，为了避免混叠，采样频率必须至少为信号最高频率分量的两倍。题目中给出的模拟信号带宽为4 kHz，在典型的基带信号假设下，最高频率即为4 kHz，因此最小采样率应为8 kHz。\n\nFINAL: E"", ""根据奈奎斯特采样定理，为了消除混叠问题，采样频率必须至少是信号最高频率的两倍。题目中给出的模拟信号带宽为4 kHz，通常在此类基础问题中，若未特别说明信号为带通信号，则默认信号为基带信号（频率范围从0到带宽），即最高频率等于带宽（4 kHz）。因此，最小采样率应为 \\(2 \\times 4 = 8\\) kHz。\n\nFINAL: E""]"
+16,computer science,10372,17,self_consistency_k3,A,,A,True,27.822,327,1422,"{""A"": 3}","[""对于5个无标签顶点的树，我们需要找出所有非同构的树结构。树的顶点数n=5，边数为4。可能的结构有：\n1. 路径图（P5）：所有顶点排成一条直线，度序列为2,2,2,1,1。\n2. 星形图（K1,4）：一个中心顶点连接其他四个叶子，度序列为4,1,1,1,1。\n3. 混合形：一个顶点度为3，连接两个叶子和一个度为2的顶点，该度为2的顶点再连接一个叶子，度序列为3,2,1,1,1。\n只有这三种非同构的树，因此答案是3。\n\nFINAL: A"", ""对于5个未标记顶点，不同构的树的数量可以通过枚举所有可能的结构来确定。树的顶点数为5，边数必须为4。可能的结构有：\n1. 路径图（所有顶点的度不超过2）：5个顶点排成一条直线。\n2. 星形图（一个中心顶点连接其他四个顶点）：一个顶点的度为4，其余四个顶点的度为1。\n3. 一个顶点的度为3，连接三个顶点，其中两个为叶子，另一个再连接一个叶子（即一个顶点的度为2，其余三个为1，一个为3）：形成一个类似“T”形的结构。\n\n只有这三种非同构的树。因此，5个未标记顶点的树共有3棵。\n\nFINAL: A"", ""对于5个未标记顶点的树（即非同构的树），可以通过枚举所有可能的度序列或直接回忆已知结果来确定。已知n个未标记顶点的非同构树的数量为：n=1时1棵，n=2时1棵，n=3时1棵，n=4时2棵，n=5时3棵，n=6时6棵。对于5个顶点，3棵树分别为：路径图（P5）、星形图（K1,4）以及一个具有度序列(3,2,1,1,1)的树（形似一个带有一个分支的星）。因此共有3棵。\n\nFINAL: A""]"
+17,computer science,10373,18,self_consistency_k3,D,,D,True,35.444,660,2173,"{""D"": 1}","[""图G包含节点0, 1, 2, 3, 4，边为(0,2), (2,4), (3,4), ("", ""首先分析无向图G，边集合为{<0,2>, <2,4>, <3,4>, <1,4>}，即节点0-2相连、2-4相连、3-4相连、1-4相连。题目要求找出包含节点0的最小顶点覆盖。顶点覆盖需覆盖所有边，"", ""包含0的最小顶点覆盖可以通过分析图的边来确定。图的边为(0,2)、(2,4)、(3,4)、(1,4)。首先将0加入顶点覆盖，此时边(0,2)被覆盖。剩余的边(2,4)、(3,4)、(1,4)都包含顶点4，因此将4加入顶点覆盖即可覆盖所有边。集合{0,4}大小为2，且无法更小（单独0无法覆盖所有边）。因此最小顶点覆盖为[0,4]。\n\nFINAL: D""]"
+18,computer science,10374,19,self_consistency_k3,I,,?,False,52.857,450,2304,{},"["""", """", """"]"
+19,computer science,10375,20,self_consistency_k3,B,,B,True,32.351,498,2070,"{""B"": 1}","[""在约束 E(X)=1 的条件下，非负整数随机变量的最大熵分布是几何分布。几何分布的概率质量函数为 P(X=k) = (1-p)p^k，其均值为 p/(1-p)。令 p/(1-p)=1 可得 p=1/2。此时概率分布为 P(X=k) = 1/2^{k+1}，对数概率为 log2 P(X=k) = -(k+1)。由此计算熵 H(X) = -Σ P(k) log2 P(k) = Σ (k+1)/2^{k+1} = Σ_{j=1}^∞ j/2^j = 2。因此最大熵为 2.0。\n\nFINAL: B"", ""给定一个非负整数值随机变量 \\(X\\)，支持集为 \\(\\{0,1,2,\\dots\\}\\)，约束条件为期望值 \\(E(X)=1\\)。在此约束下最大化熵 \\(H(X)\\)（以比特为单位），最大熵分布是几何分布。对于从 \\(0\\) 开始的几何分布，概率质量函数为 \\(P(X=k) = (1-p)^k p\\)，期望值为 \\((1-p)/p\\)。令期望值为 1 可得 \\(p=1/2\\)，因此分布为 \\(P(X=k) = (1/2)^{k+1}\\)。\n\n熵的计算：\n\\[\nH(X) = -\\sum"", """"]"
+20,biology,2804,1,self_consistency_k3,B,,B,True,31.708,411,1467,"{""B"": 3}","[""观察各个选项，我们需要找到细胞进行有丝分裂最活跃的部位。有丝分裂主要发生在植物分生组织（如茎尖、根尖）和动物生长或修复组织中。\n\n- A 肌肉组织：成熟的肌肉细胞通常不再分裂。\n- B 茎尖纵切面：茎尖含有顶端分生组织，是植物持续生长和细胞分裂最旺盛的区域，极易观察到有丝分裂。\n- C 叶脉纵切面：主要由成熟的维管组织构成，分裂活动少。\n- D 果实横切面：成熟果实细胞大多已停止分裂。\n- E 叶片横切面：成熟叶片中仅少量细胞可能分裂，不是典型观察部位。\n- F 花瓣纵切面：花瓣为成熟组织，分裂罕见。\n- G 种子纵切面：种子处于休眠状态，萌发前有丝分裂不活跃。\n- H 花药横切面：虽然花药壁有有丝分裂，但其标志性事件是花粉母细胞的减数分裂。\n\n综上，茎尖分生组织是观察有丝分裂最经典、最可靠的部位。\n\nFINAL: B"", ""在植物体中，有丝分裂最活跃的部位通常是分生组织，如茎尖和根尖。选项B的“茎尖纵切面”正好包含了顶端分生组织，细胞在此处不断进行有丝分裂以促进茎的生长，因此是观察有丝分裂的理想材料。其他选项如肌肉组织、成熟叶片、果实、花瓣、种子以及叶脉等部位，细胞分裂活动较少或主要用于观察减数分裂（如花药）。\n\nFINAL: B"", ""在植物中，有丝分裂最活跃的区域是分生组织，例如茎尖（shoot tip）和根尖。茎尖的纵切面可以清晰地观察到顶端分生组织，其中的细胞正在不断进行有丝分裂以产生新的组织和器官。其他选项中，肌肉组织是合胞体，通常不再进行有丝分裂；叶脉、果实、叶片、花瓣和种子多为成熟组织，细胞分裂较少；花药横切面虽然包含活跃的分裂，但主要是减数分裂以产生花粉，而非典型的有丝分裂示例。因此，茎尖纵切面是最可能观察到有丝分裂的选项。\n\nFINAL: B""]"
+21,biology,2805,2,self_consistency_k3,D,,D,True,32.169,666,1895,"{""D"": 2}","[""光反应（light reactions）的主要产物是 ATP 和 NADPH，同时释放氧气作为副产物。卡尔文循环（Calvin cycle）利用 ATP 作为能量来源、NADPH 作为还原力，将二氧化碳固定并合成糖类。因此，光反应为卡尔文循环提供的是 ATP 和 NADPH。\n\n选项分析：\n- A、I 错误：CO₂ 来自大气，不是光反应提供。\n- B、J 错误：光反应产生氧气，但不供给卡尔文循环；水是光反应的反应物。\n- C 错误：水中的氢通过 NADPH 间接提供，而非直接提供。\n- D 正确：ATP 和 NADPH 为卡尔文循环提供能量和还原力。\n- E 错误：光反应不提供氮。\n- F 错误：葡萄糖和果糖是卡尔文循环的产物，不是光反应提供。\n- G 错误：光反应捕捉光能，但不直接向卡尔文循环提供阳光。\n- H 错误：ATP 和 NADPH 在光反应中合成，在卡尔文循环中被分解利用，选项表述颠倒。\n\nFINAL: D"", ""光反应（light reactions）发生在类囊体膜上，利用光能分解水，产生氧气、ATP和NADPH。卡尔文循环（Calvin cycle）利用ATP和NADPH作为能量和还原力，将二氧化碳固定并合成糖类。因此光反应为卡尔文循环提供的是ATP和NADPH。\n\n各选项分析：\n- A、I：光反应不释放二氧化碳，二氧化碳来自大气。\n- B、J：光反应产生氧气，但氧气是副产品，不用于卡尔文循环；水在光反应中被分解。\n- C：水中的氢通过NADPH间接传递，并非直接提供。\n- D：正确描述了ATP和NADPH的作用。\n- E：光反应不提供氮。\n- F：葡萄糖和果糖是卡尔文循环的产物，不是由光反应提供。\n- G：光反应转化光能为化学能，不是直接提供阳光。\n- H：ATP和NADPH是在光反应中合成，在卡尔文循环中被分解利用，而不是在"", ""光合作用的光反应利用光能分解水，产生氧气、ATP和NADPH。卡尔文循环（暗反应）需要ATP提供能量、NADPH提供还原力（电子和氢），从而将二氧化碳固定并合成糖类。因此光反应为卡尔文循环提供的是ATP和NADPH。\n\n逐一分析选项：\n- A：光反应不释放二氧化碳，二氧化碳来自大气。\n- B：光反应释放氧气，但卡尔文循环不需要氧气。\n- C：水中的氢通过光反应转移到NADPH中，不直接提供给卡尔文循环。\n- D：正确描述了ATP和NADPH的作用。\n- E：光反应不提供氮。\n- F：葡萄糖和果糖是卡尔文循环的产物，不是由光反应提供。\n- G：光反应转化光能，不直接提供阳光给卡尔文循环。\n- H：ATP和NADPH是在光反应中合成，在卡尔文循环中被分解，选项描述相反。\n- I：光反应不提供二氧化碳。\n- J：光反应消耗水、释放氧气，不向卡尔文循环提供这些。\n\nFINAL: D""]"
+22,biology,2806,3,self_consistency_k3,C,,C,True,26.222,438,1347,"{""C"": 3}","[""父母均为棕色皮毛，因此基因型中至少含有一个显性基因B，即不能是bb。要产生银色皮毛的后代（基因型为bb），后代必须从父母双方各获得一个隐性基因b。因此，父母双方都必须携带b基因，且自身为棕色，所以父母的基因型必须都是Bb。\n\n选项分析：\n- A：父母均为银色，不符合“父母均为棕色”。\n- B、E：一方为BB，无法提供b基因，无法产生bb后代。\n- D、F、I：一方为银色（bb），不符合“父母均为棕色”。\n- G：双方均为BB，无法产生bb后代。\n- H：三个亲本，与“父母双方”的设定不符。\n- C：Bb × Bb，父母均为棕色，且均可提供b基因，能够产生bb后代。\n\nFINAL: C"", ""两个棕色皮毛的亲本要产生银色皮毛（bb）的后代，每个亲本都必须携带一个隐性等位基因b，即亲本的基因型都必须是杂合子（Bb）。只有选项C（Bb × Bb）满足条件。\n\nFINAL: C"", ""父母双方均为棕色皮毛，其基因型只能是 BB 或 Bb。要产生银色皮毛（bb）的后代，每个父母都必须提供一个 b 等位基因，因此父母双方都必须携带隐性基因 b，即父母基因型均为 Bb。所以满足条件的杂交组合是 Bb × Bb。\n\nFINAL: C""]"
+23,biology,2807,4,self_consistency_k3,I,,?,False,49.375,627,2304,{},"["""", """", """"]"
+24,biology,2808,5,self_consistency_k3,C,,C,True,48.71,546,2274,"{""C"": 1}","["""", """", ""根据生物学史，关于物种固定论的观点：\n- 亚里士多德（Aristotle）认为物种是永恒不变的，按“存在巨链”排列。\n- 林奈（Linnaeus）早期坚信物种是神创且固定不变的。\n- 居维叶（Cuvier）是灾变论者，主张物种固定，反对进化。\n- 拉马克（Lamarck）和达尔文（Darwin）都是进化论者，认为物种可变。\n- 莱尔（Lyell）早期虽相信物种固定，但后来接受了达尔文的进化论，因此不能算作始终“坚持物种固定”的代表。\n\n选项C中的三人（Aristotle, Linnaeus, Cuvier）均持物种固定论，而其他选项均包含进化论者（Darwin 或 Lamarck）。\n\nFINAL: C""]"
+25,biology,2809,6,self_consistency_k3,A,,A,True,17.641,387,962,"{""A"": 3}","[""凋亡（apoptosis）是程序性细胞死亡，而非细胞分裂的一种特殊类型，因此选项A表述错误。选项B、C、D均正确描述了凋亡的进化保守性、在胚胎发育中的作用以及清除受损细胞的功能。\n\nFINAL: A"", ""凋亡（apoptosis）是程序性细胞死亡，而非细胞分裂。选项A将其描述为“一种特殊类型的细胞分裂”，这明显是错误的。其他选项均正确：B指出凋亡在多个生物界中广泛存在，表明其在真核生物进化早期已出现；C提到凋亡在胚胎发育中对手指形成起关键作用；D说明凋亡能防止衰老细胞损伤邻近细胞。\n\nFINAL: A"", ""Apoptosis is a programmed cell death, not a type of cell division, making option A clearly incorrect. The other options accurately describe its evolutionary conservation, role in removing webbing between embryonic fingers, and function in safely eliminating aged or damaged cells without harming neighbors.\n\nFINAL: A""]"
+26,biology,2810,7,self_consistency_k3,F,,F,True,18.004,594,773,"{""F"": 3}","[""进化论是现代生物学的核心理论，它并不是一个猜测、假设或少数观点，而是一个被大量不同领域（如化石记录、遗传学、比较解剖学等）的证据所支持的、解释种群如何随时间发生改变的综合框架。科学理论是对自然现象的一种经过充分验证的解释，因此选项F最准确。\n\nFINAL: F"", ""进化论是现代生物学的基石，它是一个经过大量证据（如化石记录、遗传学、比较解剖学等）支持的科学理论，用于解释种群如何随时间演变。它不是单纯的猜测、假设或意见，也不是唯一可能的解释，而是被科学界广泛接受为最有力的解释框架。\n\nFINAL: F"", ""进化论在科学上被广泛接受，是一个由大量证据（如化石记录、遗传学、比较解剖学等）支持的综合性解释框架，用于阐明种群如何随时间发生演变。它并非纯粹的猜测、假设或单一事实，也不是众多地位平等的解释之一，更非宗教信念。因此，最准确的描述是选项F。\n\nFINAL: F""]"
+27,biology,2811,8,self_consistency_k3,F,,F,True,15.398,291,715,"{""F"": 3}","[""水是生物体内含量最丰富的无机化合物，约占细胞总质量的70%以上，是生命活动不可或缺的物质。其他选项中，多数为元素而非化合物，葡萄糖则是有机化合物。\n\nFINAL: F"", ""生物体中最主要的无机化合物是水。水在生物体内含量最高，是生命活动的基础介质。其他选项中，氧、钙、碳、钾、磷、硫、氢、氮均为化学元素而非化合物，葡萄糖是有机化合物。\n\nFINAL: F"", ""生物体内含量最多的无机化合物是水。水（H₂O）是典型的无机化合物，在生物体内占比最大，通常占生物体质量的60%以上。其他选项中，A、B、C、D、E、G、H、I均为化学元素，并非化合物；J（葡萄糖）是有机化合物，不属于无机化合物。\n\nFINAL: F""]"
+28,biology,2812,9,self_consistency_k3,H,,H,True,22.877,528,1145,"{""H"": 3}","[""两个现代生物如果在进化意义上亲缘关系较远，意味着它们的共同祖先存在于更久远的过去，因此从共同祖先那里继承的同源结构会因长时间的演化分歧而减少。相比之下，亲缘关系较近的生物分化时间短，会保留更多同源结构。因此，远缘生物共享的同源结构应少于近缘生物。\n\nFINAL: H"", ""如果两个现代生物在进化意义上亲缘关系较远，这意味着它们的共同祖先存在于更久远的过去。因此，相比于亲缘关系更近的生物，它们会积累更多的遗传和形态差异，共享的同源结构（由共同祖先继承的结构）也会更少。其他选项均与进化关系的基本原理不符：突变率、DNA结构、物理特征、染色体数目和进化速率并不直接由亲缘远近决定；亲缘远的生物不一定栖息地不同；它们的染色体不相似；它们共享共同祖先的时间更久远而非最近。\n\nFINAL: H"", ""如果两个现代生物在进化上关系较远，意味着它们的共同祖先存在于很久以前，因此它们有更长的时间发生分化，积累更多的遗传和形态差异。相比之下，关系较近的生物拥有较近的共同祖先，分化时间较短，因此会共享更多的同源结构。所以，关系较远的生物之间共享的同源结构应少于关系较近的生物。\n\nFINAL: H""]"
+29,biology,2813,10,self_consistency_k3,D,,D,True,45.309,339,2227,"{""D"": 1}","[""选项分析：\n\nA. 脂质包括多种类型，如甘油三酯、磷脂、类固醇和蜡等。虽然甘油三酯（脂肪）由脂肪酸和甘油组成，但并非所有脂质都含有脂肪酸和甘油（例如类固醇）。不过在一些基础定义中，这种说法常见，可能被视为不严谨，但并非最明显错误。\n\nB. 类固醇（如胆固醇、激素）确实属于脂质，说法正确。\n\nC. 饱和脂肪酸的碳氢链呈直链，分子间能紧密排列，在室温下通常为固态，说法正确。\n\nD. 磷脂分子具有亲水性头部和疏水性尾部，选项所述“头部疏水、尾部亲水”完全相反，是明显错误。\n\nD选项存在明确的科学错误，因此是不正确的陈述。\n\nFINAL: D"", """", """"]"
+30,biology,2814,11,self_consistency_k3,A,,A,True,26.208,336,1421,"{""A"": 3}","[""选项A错误地将先天性免疫（innate immunity）等同于适应性免疫（adaptive immune response），二者是不同且独立的免疫分支：先天性免疫是快速、非特异性的防御，而适应性免疫是缓慢、高度特异性的反应。其他选项均正确：适应性免疫确实比先天性免疫慢；先天性免疫可通过细胞因子等激活体液反应（广义上补体等也属于体液成分）；树突状细胞是经典的抗原呈递细胞。\n\nFINAL: A"", ""选项A错误地将先天性免疫等同于适应性免疫，这是两种不同的免疫系统。先天性免疫是快速、非特异性的防御，适应性免疫是缓慢、特异性的反应。其他选项：B正确描述了适应性免疫比先天性免疫慢；C有一定歧义，但先天性免疫可通过补体等产生某些体液反应，但通常体液免疫主要指适应性免疫的抗体反应；然而A明显错误。D正确，树突状细胞是主要的抗原呈递细胞。\n\nFINAL: A"", ""A选项将先天免疫力错误地等同于适应性免疫反应，这是概念性混淆，先天免疫和适应性免疫是两种不同的免疫方式，因此A项表述不正确。B项正确指出适应性免疫反应速度慢于先天免疫；C项有一定争议，但先天免疫确实可激活补体等体液因子，而部分教材将体液反应主要归为适应性免疫，但相比A项的明确错误，A错得更根本；D项正确，树突状细胞是典型的抗原呈递细胞。\n\nFINAL: A""]"
+31,biology,2815,12,self_consistency_k3,A,,A,True,22.676,366,1243,"{""A"": 3}","[""吸能反应（endergonic reaction）是热力学中定义为需要吸收能量才能进行的化学反应，即能量在反应中充当反应物。其他选项中，放能反应（exergonic）释放能量；分解代谢（catabolic）通常释放能量；合成代谢（anabolic）虽然消耗能量，但通用术语是吸能反应；放热反应（exothermic）指释放热能；其他选项均不符合标准定义。\n\nFINAL: A"", ""能量作为反应物参与的反应，意味着反应需要吸收能量才能进行，这类反应在热力学中被称为吸能反应（endergonic reaction）。在吸能反应中，反应物的自由能低于产物的自由能，能量被视为一种“反应物”。放能反应（exergonic reaction）则相反，会释放能量。其他选项如分解代谢反应通常是放能的，合成代谢反应虽然是吸能的但属于生物学过程描述，不如“吸能反应”直接对应定义。\n\nFINAL: A"", ""一个将能量作为反应物的反应意味着该反应需要吸收能量才能进行。在热力学中，这种吸收自由能的反应被称为吸能反应（endergonic reaction），其吉布斯自由能变化为正（ΔG > 0）。相反，放能反应（exergonic reaction）则释放能量，能量是产物。其他选项如分解代谢、氧化还原等并不直接定义能量作为反应物的特性。\n\nFINAL: A""]"
+32,biology,2816,13,self_consistency_k3,G,,?,False,50.559,735,2303,{},"["""", ""Tay-Sachs病是一种隐性遗传病，患病个体（纯合隐性）通常无法存活至生育年龄，因此无法将致病等位基因传递给后代。如果该等位基因纯粹有害，自然选择会逐渐将其淘汰。然而，该等位基因在种群中得以保留的最可能解释是**杂合子优势**：即携带一个致病等位基因和一个正常等位基因的杂合个体不仅不表现出疾病症状，还可能因该基因的存在而获得某种生存优势，例如增强对某些传染病（如结核病）的抵抗力。这样，隐性等位基因便可通过杂合子的成功繁殖而持续在种群"", """"]"
+33,biology,2817,14,self_consistency_k3,E,,E,True,14.4,447,809,"{""E"": 3}","[""根据描述，孩子从父母双方分别继承了IA和IB等位基因，并且A和B两种糖蛋白在红细胞表面同时表达，这表明两个等位基因均独立、完全地表现出来，没有一方掩盖另一方。这种遗传模式称为共显性。\n\nFINAL: E"", ""一个AB血型的孩子同时表达A和B两种糖蛋白，这表明IA和IB两个等位基因都没有被掩盖，而是共同表达。这种遗传模式被称为共显性。\n\nFINAL: E"", ""当孩子从父母双方分别继承了IA和IB等位基因时，其基因型为IAIB，红细胞表面会同时表达A和B两种糖蛋白。这种杂合子中两个等位基因都能完全表达的现象被称为共显性。\n\nFINAL: E""]"
+34,biology,2818,15,self_consistency_k3,D,,D,True,25.163,666,1430,"{""D"": 3}","[""移码突变（frameshift mutation）是指由于基因中插入或删除一个或多个碱基对（非3的整数倍）而改变原有读码框的突变。这会导致下游氨基酸序列完全改变，并常常提前终止翻译。在其他选项中：A描述的是碱基对移位，B是错义突变，C与端粒相关，E是染色体大片段缺失，F是基因重复，G和J是无义突变，H是碱基替换，I是沉默突变。因此只有D正确描述了移码突变的成因。\n\nFINAL: D"", ""移码突变（frameshift mutation）是指由于DNA序列中插入或删除一个或多个碱基对（且数量不是3的倍数），导致核糖体读取密码子的阅读框发生改变的突变。选项D描述的就是这种插入或删除一个碱基对的情况，正是产生移码突变的原因。\n\n其他选项分析：A描述的是碱基对位置的移动（可能涉及染色体重排）；B是错义突变；C是端粒序列去除；E是大片段染色体缺失；F是基因重复；G和J通常导致无义突变或提前终止；H是碱基替换（点突变）；I是沉默突变。这些都不是移码突变的定义。\n\nFINAL: D"", ""移码突变（frameshift mutation）是指由于DNA分子中插入或删除一个或多个碱基对（且数目不是3的整数倍），导致后续密码子的阅读框发生改变，从而产生完全不同的氨基酸序列。分析各选项：A是碱基移位，B是错义突变，C是端粒序列移除，D是碱基对插入或删除，E是大片段染色体缺失，F是基因重复，G是无义突变，H是碱基替换，I是同义突变，J是终止突变。只有选项D描述了导致移码突变的直接原因。\n\nFINAL: D""]"
+35,biology,2819,16,self_consistency_k3,C,,C,True,14.87,249,740,"{""C"": 3}","[""成纤维细胞的细胞运动涉及肌动蛋白细胞骨架的重组，包括形成板状伪足（lamellipodia）推动细胞前进，以及通过黏着斑（adhesion plaques）与细胞外基质建立附着点，其中含有纽带蛋白（vinculin）等。而网格蛋白（clathrin）主要参与受体介导的内吞和囊泡运输，与细胞运动无直接关联。\n\nFINAL: C"", ""细胞运动（例如培养的成纤维细胞中观察到的）涉及粘着斑（adhesion plaques）、粘着斑蛋白（vinculin）以及片状伪足（lamellipodia）等结构。而网格蛋白（clathrin）主要参与受体介导的胞吞作用和囊泡运输，与细胞运动不直接相关。因此，网格蛋白不属于细胞运动所涵盖的结构。\n\nFINAL: C"", ""成纤维细胞的运动主要涉及细胞骨架的重组和与细胞外基质的黏附，具体结构包括片状伪足（lamellipodia，用于向前延伸）、黏着斑（adhesion plaques，用于附着）以及黏着斑蛋白（vinculin，参与黏着斑的形成和稳定）。网格蛋白（clathrin）则主要参与受体介导的内吞作用，与细胞运动无直接关联。\n\nFINAL: C""]"
+36,biology,2820,17,self_consistency_k3,A,,A,True,45.682,558,2233,"{""A"": 1}","[""预期观察结果中，选项A描述向卵子内部注射抗ZP3抗体来阻断体外受精。ZP3位于卵子外层的透明带（细胞外基质），将抗体注射到卵子细胞质内，抗体无法接触并结合透明带上的ZP3，因此无法阻断受精。其他选项中，B通过纯化ZP3预先占据精子受体，C通过抗体与卵子透明带上的ZP3结合，D中ZP2不是精子受体结合的目标，均为预期结果。\n\nFINAL: A"", ""根据题意，ZP3是位于卵子透明带（zona pellucida）中的糖蛋白，精子表面的受体蛋白与ZP3结合后启动顶体反应，这是受精的关键步骤。分析各选项：\n\n- A项"", """"]"
+37,biology,2821,18,self_consistency_k3,I,,A,False,52.715,474,2296,"{""A"": 1}","["""", ""在培养条件下，正常细胞和癌细胞都不具备在体内才发生的转移能力，这是二者的相似之处。其他选项中，正常细胞和癌细胞在分裂次数、接触抑制、营养需求、DNA修复效率等方面均存在显著差异。\n\nFINAL: A"", """"]"
+38,biology,2823,19,self_consistency_k3,J,,J,True,24.469,576,1119,"{""J"": 3}","[""遗传漂变是指在有限大小的种群中，由于随机抽样误差导致等位基因频率发生变化的现象。它的影响强度与种群大小成反比：种群越小，漂变的效果越显著。两万年前，人类还处于狩猎采集的小群体阶段，群体规模小且相对隔离，遗传漂变是演化的重要驱动力。而现在全球人口数量极大，群体间基因流动频繁，大大减弱了随机漂变的效应，因此它在当前人类演化中已不那么重要。\n\nFINAL: J"", ""遗传漂变（genetic drift）指等位基因频率在种群中因随机抽样误差而发生变化的现象，其影响强度与种群规模密切相关：种群越小，漂变效应越显著；种群越大且个体间基因交流越频繁，漂变效应越弱。在距今两万年甚至更早的时期，人类以小规模、相对孤立的狩猎采集群体为主，遗传漂变是重要的进化力量。现今人类种群规模极大，且全球范围内的迁移和连接性大幅增加，基因流动（gene flow）显著增强，大大削弱了随机漂变对等位基因频率的整体影响。因此，选项J最准确地解释了这一变化。\n\nFINAL: J"", ""遗传漂变是指由于随机因素导致小种群中等位基因频率发生波动的现象，其效应在种群规模较小、隔离程度较高时更为显著。在过去两万年甚至更久以前，人类种群规模较小且相对分散隔离，遗传漂变的影响较大。而现今，全球人口数量大幅增长，不同群体间的基因流动频繁，种群规模扩大和连通性增强大大削弱了随机漂变的作用，因此遗传漂变在人类进化中的重要性降低。\n\nFINAL: J""]"
+39,biology,2824,20,self_consistency_k3,F,,F,True,27.798,831,1343,"{""F"": 3}","[""题目要求简述从受精卵到成熟胎儿的人类个体发育特征及其意义。选项F明确指出人类胚胎的个体发育在一定程度上揭示了人类的进化历史，并指出其意义在于“个体发育重演系统发育”（ontogeny recapitulates phylogeny），这正是对这一问题的经典概括，既描述了特征也说明了意义。其他选项或定义不准确、或未涉及题干要求的发育阶段与意义。\n\nFINAL: F"", ""题目要求描述人类从受精卵到成熟胎儿的个体发育（ontogeny）特征及其意义。选项F明确指出人类胚胎的个体发育在某种程度上揭示了人类的进化历史，并点出其经典意义——“个体发育重演系统发育”（ontogeny recapitulates phylogeny），这与题目所问高度吻合。其他选项或定义错误，或未能涵盖题目要求的发育阶段与意义。\n\nFINAL: F"", ""题目要求描述人类从受精卵到成熟胎儿的个体发生特征及其意义。在生物学史上，胚胎发育常被认为在一定程度上反映了物种的进化历程，即“个体发生重演系统发生”。选项 F 明确指出了人类胚胎的个体发生揭示了进化史，并指出其意义在于“ontogeny recapitulates phylogeny”，这最符合问题所问的经典概念。其他选项或错误定义了个体发生的时间范围，或混淆了其他生物学概念。\n\nFINAL: F""]"
+0,computer science,10356,1,self_reflection,B,B,B,True,7.174,271,316,,"当一个方法规范对于多个符合条件的返回值未作说明时，最佳做法是先明确规范，而不是随意选择一种实现方式。因此，选项B是最合适的。
+
+FINAL: B"
+1,computer science,10357,2,self_reflection,A,A,A,True,5.828,177,285,,"程序执行的外层循环3次，内层循环y次，每次将result加1，总共增加3×y次，因此最终result的值为3y。
+
+FINAL: A"
+2,computer science,10358,3,self_reflection,A,C,C,False,8.266,187,321,,"经过对题目和各选项的独立分析，初始回答选择 C（用户的搜索引擎历史）是正确的。
+
+搜索引擎历史通常包含用户主动输入的查询内容，能直接揭示个人健康状况、财务状况、政治倾向、兴趣爱好、地理位置、人际关系等极其敏感的信息，对个人隐私的侵害潜力最大。相比之下：
+- A（Cookies）主要追踪浏览行为，信息较为片面。
+- B（Wi-Fi网络）和 D（IP地址）主要暴露位置和网络身份，不如搜索内容深入。
+- H（电话号码）、I（邮箱）、J（社交媒体用户名）更多是联系标识，本身不直接暴露大量行为隐私。
+- E（操作系统）、F（公钥）、G（电脑品牌）对隐私的潜在侵害较弱。
+
+因此，C 仍是所有选项中危害潜力最大的。
+
+FINAL: C"
+3,computer science,10359,4,self_reflection,F,F,?,False,19.107,149,768,,
+4,computer science,10360,5,self_reflection,C,C,C,True,12.351,267,686,,"经过复核，I和II可通过替换 {w/1, x/1} 合一；I和III可通过替换 {w/g(z), y/g(z)} 合一；II和III由于常量1与复合项g(z)无法合一，因此不可合一。正确答案为C。
+
+FINAL: C"
+5,computer science,10361,6,self_reflection,G,G,G,True,11.206,179,763,,"首先将十六进制数 D4FE2003 转换为 32 位二进制：
+
+- D = 1101
+- 4 = 0100
+- F = 1111
+- E = 1110
+- 2 = 0010
+- 0 = 0000
+- 0 = 0000
+- 3 = 0011
+
+组合得到：11010100 11111110 00100000 00000011
+
+统计其中“1”的个数（占用磁道数）：
+- D4: 4 个
+- FE: 7 个
+- 20: 1 个
+- 03: 2 个
+总计：4 + 7 + 1 + 2 = 14 个
+
+占用百分比：14 / 32 × 100% = 43.75%，四舍五入至最近百分比为 44%。
+
+选项 G 为 44%，初始回答正确。
+
+FINAL: G"
+6,computer science,10362,7,self_reflection,A,A,?,False,15.873,269,768,,
+7,computer science,10363,8,self_reflection,D,D,D,True,2.571,150,99,,"矩阵 A 的所有元素均为 1，因此其所有行（和列）都线性相关，非零行只有一个。该矩阵的秩为 1。
+
+FINAL: D"
+8,computer science,10364,9,self_reflection,D,D,D,True,13.194,158,632,,"k近邻算法（k-NN）在分类（预测）阶段，需要计算待分类样本与训练集中所有N个样本的距离，然后进行排序或比较以找出最近邻。这一过程的时间复杂度通常为O(N)（假设特征维度固定）。其他选项如O(N log N)可能是某些排序实现的时间，但一般可以直接用线性扫描在O(N)时间内完成预测。因此初始回答D是正确的。
+
+FINAL: D"
+9,computer science,10365,10,self_reflection,J,F,F,False,7.384,201,401,,"陈述1说“ReLU不是单调的，但sigmoid是单调的”。实际上，ReLU（f(x)=max(0,x)）是单调递增函数，因此前半句错误；sigmoid函数是单调递增的，后半句正确。整个复合陈述因为前半句错误而整体为假。
+
+陈述2说“使用梯度下降训练的神经网络以高概率收敛到全局最优”。由于神经网络的损失函数通常是非凸的，梯度下降无法保证以高概率收敛到全局最优，该陈述为假。
+
+因此，两个陈述均为假。
+
+FINAL: F"
+10,computer science,10366,11,self_reflection,A,A,A,True,7.775,155,390,,"两个陈述都需要根据已知事实判断：
+
+- **Statement 1**: Stanford Sentiment Treebank 基于烂番茄的电影评论构建，确实包含电影评论而非书评，陈述为真。
+- **Statement 2**: Penn Treebank 广泛用于语言建模任务，是经典基准数据集，陈述为真。
+
+因此，两个陈述均为真。
+
+FINAL: A"
+11,computer science,10367,12,self_reflection,F,F,F,True,9.262,197,509,,"Batch Normalization performs normalization by subtracting the mean and dividing by the standard deviation over a mini-batch, which effectively cancels out any constant bias term added by a preceding affine layer. Therefore, the bias parameter becomes redundant when a batch normalization layer immediately follows.
+
+FINAL: F"
+12,computer science,10368,13,self_reflection,H,H,H,True,4.755,134,189,,"根据当前无线安全协议的标准，WPA3（选项H）是已知最广泛使用且安全性最强的协议。虽然选项中包含WPA4（选项I），但该协议尚未正式发布或标准化，因此WPA3是现实中最安全的选择。
+
+FINAL: H"
+13,computer science,10369,14,self_reflection,B,B,?,False,17.15,115,768,,
+14,computer science,10370,15,self_reflection,B,B,B,True,4.436,150,230,,FINAL: B
+15,computer science,10371,16,self_reflection,E,E,E,True,5.452,156,286,,"根据奈奎斯特采样定理，要消除混叠现象，采样频率必须至少为信号最高频率的两倍。题目中模拟信号带宽为4kHz，通常指基带信号的最高频率为4kHz，因此最小采样率为 2 × 4 kHz = 8 kHz。
+
+FINAL: E"
+16,computer science,10372,17,self_reflection,A,A,A,True,5.05,125,228,,"对于有5个无标签顶点的树（即非同构树），已知组合数学中树的计数结果为：n=5时共有3棵非同构的树。因此正确答案是A。
+
+FINAL: A"
+17,computer science,10373,18,self_reflection,D,D,?,False,13.96,235,768,,
+18,computer science,10374,19,self_reflection,I,?,?,False,17.362,166,768,,
+19,computer science,10375,20,self_reflection,B,B,B,True,8.813,182,505,,"对于非负整数随机变量，在给定均值 \(E(X)=1\) 下，最大熵分布为几何分布 \(P(X=k) = \left(\frac{1}{2}\right)^{k+1}\)。经计算，其熵 \(H(X) = 2.0\)。初始回答正确。
+
+FINAL: B"
+20,biology,2804,1,self_reflection,B,B,B,True,8.041,152,361,,"在植物体中，有丝分裂最活跃的区域是分生组织，如茎尖、根尖等。茎尖的纵切面能够清晰地观察到顶端分生组织中的细胞正在进行有丝分裂，因此这是最可能提供有丝分裂例子的选项。其他选项如肌肉组织（动物）或成熟植物器官（叶、果实、花瓣等）通常不进行活跃的细胞分裂，花药中则主要进行减数分裂。
+
+FINAL: B"
+21,biology,2805,2,self_reflection,D,D,D,True,7.949,237,420,,"经过逐项复核，光反应（light reactions）的主要产物是ATP和NADPH，它们为卡尔文循环（Calvin cycle）提供能量和还原力。选项D的描述“ATP and NADPH provide the power and raw materials for the Calvin cycle”准确反映了这一核心概念。其他选项均存在事实性错误，例如混淆了CO₂和O₂的来源、水的角色以及光合作用各阶段的产物。
+
+FINAL: D"
+22,biology,2806,3,self_reflection,C,C,C,True,12.988,162,676,,"题目要求父母双方均为棕色皮毛（显性性状），但能产生银色皮毛（隐性性状）的后代。棕色皮毛的基因型可能是BB或Bb，银色皮毛的基因型必须是bb。要产生bb后代，父母双方都必须提供b等位基因，因此父母双方都必须携带b等位基因且表现为棕色，即基因型只能是Bb。因此杂交组合必须是Bb × Bb。
+
+复核选项：
+- A：bb × bb，双方为银色，不符合。
+- B：Bb × BB，BB一方不提供b，无法产生银色后代。
+- C：Bb × Bb，双方棕色且均可提供b，能产生bb后代，符合。
+- D：Bb × bb，bb一方为银色，不符合。
+- E：BB × Bb，无bb后代。
+- F：bb × Bb，一方银色。
+- G：BB × BB，无b等位基因。
+- H：格式不规范，且无法体现正常一对杂交。
+- I：BB × bb，一方银色。
+
+初始回答选择C，判断正确。
+
+FINAL: C"
+23,biology,2807,4,self_reflection,I,?,?,False,14.883,225,768,,
+24,biology,2808,5,self_reflection,C,C,?,False,15.92,198,768,,"对于这个关于物种固定性的问题，各个历史人物的观点如下：
+- 亚里士多德（Aristotle）：持物种不变的观点。
+- 林奈（Linnaeus）：早期分类学中认为物种是上帝创造且固定不变的。
+- 居维叶（Cuvier）：灾变论者，虽然承认物种灭绝，但认为物种本身并不演化，是固定不变的。
+- 拉马克（Lamarck）：进化论先驱，主张物种可变。
+- 达尔文（Darwin）：进化论核心"
+25,biology,2809,6,self_reflection,A,A,A,True,7.535,144,421,,"经过复核，题目要求找出关于细胞凋亡（apoptosis）的“不正确”陈述。
+
+- A 选项称“凋亡是一种特殊类型的细胞分裂”，这明显错误。凋亡是程序性细胞死亡，而非细胞分裂。
+- B 选项正确，凋亡在多个真核生物界中广泛存在，可作为其早期进化的证据。
+- C 选项正确，胚胎手指发育过程中，指间细胞的凋亡至关重要。
+- D 选项正确，凋亡可以有序清除老化或濒死细胞，避免损伤邻近细胞。
+
+因此，不正确的陈述是 A。初始回答无误。
+
+FINAL: A"
+26,biology,2810,7,self_reflection,F,F,F,True,4.935,213,209,,FINAL: F
+27,biology,2811,8,self_reflection,F,F,F,True,5.468,113,267,,"题目问的是生物体内主要的无机化合物（principle应是principal的笔误）。水（H₂O）是生物体内含量最多的无机化合物，而其他选项中大多是元素（如氧、钙、碳等）或有机化合物（如葡萄糖）。因此，正确答案为F。
+
+FINAL: F"
+28,biology,2812,9,self_reflection,H,H,H,True,9.023,191,497,,"如果两个现代生物在进化意义上亲缘关系较远，说明它们从共同祖先分化的时间更早，积累的遗传和形态差异更大。同源结构是由共同祖先遗传的，亲缘关系越远，共享的同源结构通常越少。因此，与亲缘关系更近的生物相比，它们应该共享更少的同源结构。
+
+FINAL: H"
+29,biology,2813,10,self_reflection,D,D,D,True,8.731,128,464,,"经过复核，题目要求选出关于脂类叙述不正确的一项。
+
+- A选项：脂类由脂肪酸和甘油组成。此说法不够全面（脂类还包括固醇等），但在基础生物学中常泛称脂肪为此结构，不完全算错，但并非明显错误。
+- B选项：类固醇是脂类的例子，正确。
+- C选项：饱和脂肪酸分子排列紧密，室温下呈固态，正确。
+- D选项：磷脂的头部是疏水的，尾部是亲水的。实际上磷脂头部亲水（磷酸基团），尾部疏水（脂肪酸链），该叙述完全颠倒，明显错误。
+
+因此，不正确的叙述是D。
+
+FINAL: D"
+30,biology,2814,11,self_reflection,A,A,A,True,12.145,127,556,,"A 选项将先天免疫错误地等同于适应性免疫，这是明显不正确的陈述。其他选项均符合免疫学基本概念。
+
+FINAL: A"
+31,biology,2815,12,self_reflection,A,A,A,True,6.175,137,296,,"A reaction that includes energy as one of its reactants is called an endergonic reaction (or endothermic in some contexts, but among the given choices, endergonic is the correct term). The initial answer is correct.
+
+FINAL: A"
+32,biology,2816,13,self_reflection,G,?,?,False,17.149,260,768,,
+33,biology,2817,14,self_reflection,E,E,E,True,3.744,165,193,,"E
+
+FINAL: E"
+34,biology,2818,15,self_reflection,D,D,D,True,5.886,238,280,,"移码突变（frameshift mutation）是由于DNA序列中插入或缺失一个或多个碱基对（非3的整数倍）导致阅读框改变的突变。题目选项D“a base pair is either inserted or deleted in a gene”准确描述了这一机制。其他选项分别对应移位、错义、端粒缺失、大片段缺失、基因重复、无义突变、点突变、同义突变等，均不属于移码突变。
+
+FINAL: D"
+35,biology,2819,16,self_reflection,C,C,C,True,4.475,99,244,,"成纤维细胞的运动涉及黏着斑（adhesion plaques）、纽蛋白（vinculin）和片状伪足（lamellipodia）等结构或蛋白。网格蛋白（clathrin）主要参与胞吞作用，与细胞运动无直接关联。因此正确答案为C。
+
+FINAL: C"
+36,biology,2820,17,self_reflection,A,?,?,False,17.089,201,768,,
+37,biology,2821,18,self_reflection,I,A,?,False,17.318,174,768,,
+38,biology,2823,19,self_reflection,J,J,J,True,9.682,208,442,,"Genetic drift is a random change in allele frequencies that has a stronger effect in small populations. Thousands of years ago, human populations were smaller and more isolated, making drift a significant evolutionary force. Today, human populations are vastly larger and more interconnected, which drastically reduces the random fluctuation of allele frequencies caused by drift.
+
+The other options contain inaccuracies:
+- A: The human genome has not “fully adapted” to all pressures; evolution is ongoing.
+- B: Modern medicine alters natural selection but does not eliminate genetic drift.
+- C: There is no direct proportionality between drift rate and technology.
+- D: Genetic equilibrium is not a state humans have permanently achieved.
+- E: “Immunity to genetic drift” is a nonsensical concept.
+- F: Cultural evolution can alter selection pressures but does not directly counteract the mechanism of drift.
+- G: Mutation rates have not significantly changed in the recent past.
+- H: Genetic drift has decreased, not increased, due to population growth.
+- I: Human evolution has not stopped; selective pressures have changed.
+
+FINAL: J"
+39,biology,2824,20,self_reflection,F,F,F,True,12.568,292,632,,"The question asks to describe the characteristics of human ontogeny from zygote to mature fetus and its significance. Option F correctly identifies that the development of the human embryo reflects evolutionary history and states the significance as ""ontogeny recapitulates phylogeny,"" which aligns with the classic biogenetic law. Other options either define ontogeny incorrectly, refer to wrong life stages, or fail to address the specific embryonic context and its evolutionary significance.
+
+FINAL: F"

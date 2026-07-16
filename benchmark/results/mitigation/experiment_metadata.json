@@ -1,0 +1,9 @@
+{
+  "model_service_identifier": "deepseek-v4-pro",
+  "input": "mmlu_pro_results.csv",
+  "items": 40,
+  "self_consistency_samples": 3,
+  "workers": 8,
+  "max_output_tokens": 768,
+  "note": "Formal paired comparisons use the current direct baseline. Saved direct results are historical only. The model name is a service-side identifier and is not treated as an official public model version."
+}

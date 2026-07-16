@@ -1,0 +1,16 @@
+﻿method,category,correct_all,total,accuracy_all_pct,wilson_low_pct,wilson_high_pct,answered,coverage_pct,accuracy_answered_pct,mean_latency_s,prompt_tokens,completion_tokens
+consistency_k3_reflection,ALL,29,40,72.5,57.17,83.89,32,80.0,90.62,9.582,7287,18861
+consistency_k3_reflection,biology,15,20,75.0,53.13,88.81,16,80.0,93.75,9.836,3664,9528
+consistency_k3_reflection,computer science,14,20,70.0,48.1,85.45,16,80.0,87.5,9.329,3623,9333
+direct_current,ALL,33,40,82.5,68.05,91.25,36,90.0,91.67,7.155,6184,13871
+direct_current,biology,16,20,80.0,58.4,91.93,17,85.0,94.12,6.611,3115,6327
+direct_current,computer science,17,20,85.0,63.96,94.76,19,95.0,89.47,7.699,3069,7544
+direct_saved_historical,ALL,35,40,87.5,73.89,94.54,40,100.0,87.5,0.0,0,0
+direct_saved_historical,biology,17,20,85.0,63.96,94.76,20,100.0,85.0,0.0,0,0
+direct_saved_historical,computer science,18,20,90.0,69.9,97.21,20,100.0,90.0,0.0,0,0
+self_consistency_k3,ALL,31,40,77.5,62.5,87.68,34,85.0,91.18,30.895,19992,62218
+self_consistency_k3,biology,17,20,85.0,63.96,94.76,18,90.0,94.44,30.598,10065,30046
+self_consistency_k3,computer science,14,20,70.0,48.1,85.45,16,80.0,87.5,31.192,9927,32172
+self_reflection,ALL,28,40,70.0,54.57,81.93,30,75.0,93.33,9.967,7287,19478
+self_reflection,biology,15,20,75.0,53.13,88.81,15,75.0,100.0,10.085,3664,9798
+self_reflection,computer science,13,20,65.0,43.29,81.88,15,75.0,86.67,9.848,3623,9680

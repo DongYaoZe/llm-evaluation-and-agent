@@ -1,0 +1,4 @@
+﻿baseline,treatment,wrong_to_right,right_to_wrong_or_unanswered,net_gain,treatment_unanswered,mcnemar_exact_p_failures_as_wrong
+direct_current,self_reflection,0,5,-5,10,0.0625
+direct_current,self_consistency_k3,1,3,-2,6,0.625
+direct_current,consistency_k3_reflection,0,4,-4,8,0.125
